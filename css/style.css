@@ -714,19 +714,20 @@ label {
 	outline: 0;
 }
 #exampleModalLong .nav-tabs .nav-link {
-	border: 4px solid #f7162b;
+	border: 4px solid #231f20;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	font-size: 14px;
 	font-weight: 700;
 	color: #fff;
+	background: #7a7a7a;
 	text-transform: uppercase;
 	padding: 10px 35px;
 }
 #exampleModalLong .nav-tabs .nav-link.btn-amber {
 	color: #fff;
-	background-color: #f7162b;
-	border-color: #f7162b;
+	background-color: #231f20;
+	border-color: #231f20;
 }
 #exampleModalLong .nav-tabs .nav-item {
 	margin-bottom: 0;
@@ -745,7 +746,7 @@ label {
 	border-top-right-radius: 10px;
 }
 .fare-rate-tab-content {
-	background: #0c0417;
+	background: #231f20;
 	padding: 40px 30px;
 	padding-bottom: 80px;
 	overflow: hidden;
@@ -766,13 +767,13 @@ label {
 .shipping-step-count h5 {
 	font-size: 16px;
 	font-weight: 900;
-	color: #f7162b;
+	color: #231f20;
 	margin-bottom: 0;
 	height: 35px;
 	width: 35px;
 	text-align: center;
 	line-height: 35px;
-	border: 2px dotted #f7162b;
+	border: 2px dotted #231f20;
 	border-radius: 50%;
 }
 .shipping-address-form {
@@ -786,7 +787,7 @@ label {
 	font-size: 13px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #f7162b;
+	color: #fff;
 	line-height: 1;
 	margin-bottom: 12px;
 }
@@ -874,7 +875,7 @@ label {
 	margin-bottom: 0;
 }
 .modal-shipping-title h2 span {
-	color: #f7162b;
+	color: #fff;
 }
 .modal-shipping-title {
 	padding-bottom: 20px;
@@ -2037,7 +2038,6 @@ label {
 }
 .s-cat-content i {
 	margin-right: 5px;
-	color: #f64413;
 }
 .s-category-area {
 	/* background-image: url(../img/bg/t_cat_bg.jpg); */
@@ -2319,7 +2319,7 @@ label {
 	font-family: 'Rubik', serif;
 	font-size: 18px;
 	font-weight: 700;
-	color: #f7162b;
+	/* color: #f7162b; */
 	margin-bottom: 0;
 }
 .int-services-content p {
@@ -2611,7 +2611,7 @@ label {
 	align-items: flex-start;
 }
 .services-details-list ul li i {
-	color: #e32222;
+	color: #18364a;
 	margin-right: 10px;
 	margin-top: 4px;
 }
@@ -4622,7 +4622,7 @@ blockquote.classic-blockquote-post::after {
 	text-align: center;
 	line-height: 40px;
 	color: #ffffff;
-    background: #d01c2a;
+    background: #5c5c5c;
 	border-radius: 50%;
 	font-size: 14px;
 }
