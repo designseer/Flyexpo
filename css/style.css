@@ -933,7 +933,7 @@ label {
 	margin-right: 20px;
 }
 .single-shipping-details-box.shipping-weight .custom-select {
-	width: 170px;
+	width: 165px;
 }
 .single-shipping-details-box.shipping-transport .custom-select {
 	width: 215px;
@@ -989,7 +989,7 @@ label {
 	border: none;
 	font-size: 14px;
 	font-weight: 500;
-	width: 350px;
+	width: 340px;
 }
 .modal-tracking-info:last-child {
 	margin-right: 0;

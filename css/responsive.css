@@ -657,7 +657,7 @@ blockquote.blockquote-post::before {
 /* small mobile :320px. */
 @media (max-width: 767px) {
 	.shipping-country-box input, .shipping-address-box input, .single-shipping-details-box .custom-select, .single-shipping-details-box.shipping-transport .custom-select{
-		width: 170px;
+		width: 165px;
 	  }
 	#exampleModalLong .nav-tabs .nav-item {
 		width: 33.3%;
