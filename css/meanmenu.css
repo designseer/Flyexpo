@@ -17,7 +17,7 @@ a.meanmenu-reveal {
 .mean-container .mean-bar {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   float: left;
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: 99;
 }
@@ -35,7 +35,7 @@ a.meanmenu-reveal {
 	margin-top: -46px;
 	padding: 8px 9px;
 	position: absolute;
-	right: 0;
+	right: 15px !important;
 	text-decoration: none;
 	top: 0;
 	width: 22px;
@@ -50,7 +50,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav {
 	background: #231f20 none repeat scroll 0 0;
 	float: left;
-	margin-top: 15px;
+	margin-top: 10px;
 	width: 100%;
 }
 

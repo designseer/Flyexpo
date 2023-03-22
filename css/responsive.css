@@ -1,5 +1,5 @@
 /* Large desktop :1800px. */
-@media (min-width: 1500px) and (max-width: 1800px) {
+@media (min-width: 1500px) and (max-width: 1920px) {
 .slider-golve-bike {
 	left: 15.6%;
 }
@@ -12,16 +12,25 @@
 .third-main-header::before {
 	width: 535px;
 }
-
+.t-single-cat {
+	height: 150px;
+}
 }
 @media (min-width: 1024px) {
 	.padding-desktop {
 		padding-top: 100px;
 	}
+	#header-sticky .logo {
+		margin-left: -25px;
+	}
 }
 @media (max-width: 575px) {
 	.padding-desktop {
 		margin-top: -60px !important;
+	}
+	.video-bg {
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 }
 
@@ -631,15 +640,15 @@ blockquote.blockquote-post::before {
 	padding: 0;
 }
 .services-details-area {
-	padding-top: 115px;
-	padding-bottom: 120px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 .services-blockquote {
 	padding: 35px 30px 35px 100px;
 }
 .services-sidebar {
 	padding-right: 0;
-	padding-top: 115px;
+	padding-top: 0;
 }
 
 }
@@ -647,6 +656,19 @@ blockquote.blockquote-post::before {
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+	.shipping-country-box input, .shipping-address-box input, .single-shipping-details-box .custom-select, .single-shipping-details-box.shipping-transport .custom-select{
+		width: 170px;
+	  }
+	#exampleModalLong .nav-tabs .nav-item {
+		width: 33.3%;
+	  }
+	.fw-link ul li {
+		margin-bottom: 10px;
+	}
+	.international-services {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 .header-container-p {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -655,25 +677,27 @@ blockquote.blockquote-post::before {
 	display: block;
 }
 .main-header {
-	padding: 25px 0 10px;
+	padding: 15px 0 10px;
 	background: #fff;
 }
 .main-header.sticky-menu {
-	padding: 20px 0 5px;
+	padding: 15px 0 5px;
 	background: #fff;
 }
 .mobile-logo {
 	width: 165px;
 }
-.mean-container a.meanmenu-reveal {
+/* .mean-container a.meanmenu-reveal {
 	margin-top: -39px;
-}
+} */
 .slider-content h2 {
-	font-size: 50px;
+	font-size: 80px;
+	padding-top: 80px;
 }
 .slider-content p {
 	width: 100%;
-	font-size: 17px;
+	font-size: 24px;
+	line-height: 32px;
 }
 .slider-form form {
 	display: block;
@@ -932,6 +956,11 @@ blockquote.blockquote-post::before {
 }
 .s-single-cat::before {
 	display: none;
+}
+.t-single-cat {
+	padding: 10px;
+	margin-bottom: 20px;
+	height: 150px;
 }
 .third-main-header::before {
 	display: none;
@@ -1229,15 +1258,15 @@ blockquote::before {
 	margin-bottom: 40px;
 }
 .services-details-area {
-	padding-top: 115px;
-	padding-bottom: 120px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 .services-details-wrap {
 	padding: 0;
 }
 .services-sidebar {
 	padding-right: 0;
-	padding-top: 115px;
+	padding-top: 0;
 }
 .service-sidebar-support {
 	padding: 40px 20px;

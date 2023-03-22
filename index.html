@@ -40,10 +40,52 @@
 
         <!-- header-start -->
         <header>
+            
+            <div id="header-sticky" class="main-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="logo d-flex align-items-center">
+                                <a href="index.html"><img src="img/logo/logo.png" class="mobile-logo" alt="Logo"></a>
+                                <div class="header-btn d-none d-lg-block">                                    
+                                    <a href="pickup.html" class="br-25 theme-color f-600 track-btn">Send</a>
+                                    <a href="tracking.html" class="br-25 theme-color f-600 track-btn">Track</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 d-none d-md-block">
+                            <div class="menu-area">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="active"><a href="index.html">Home</a>
+                                                <ul class="submenu">
+                                                    <li><a href="index-2.html">Home Alt</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about-us.html">About</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="network.html">Network</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li class="d-block d-sm-none"> <a href="pickup.html" class="">Send</a></li>
+                                            <li class="d-block d-sm-none"> <a href="tracking.html" class="">Track</a></li>                                            
+                                        </ul>
+                                    </nav>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="col-12 p-0">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="header-top-wrap gray-bg d-none d-md-block">
-                <div class="container-fluid header-container-p">
+                <div class="container">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-7 col-md-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="header-contact">
                                 <ul>
                                     <li><i class="fas fa-phone"></i>+654 3048 9658</li>
@@ -51,7 +93,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-5 col-md-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="header-top-right d-flex justify-content-end align-items-center">
                                 <div class="header-social">
                                     <ul>
@@ -65,46 +107,12 @@
                     </div>
                 </div>
             </div>
-            <div id="header-sticky" class="main-header">
-                <div class="container-fluid header-container-p">
-                    <div class="row align-items-center">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="logo">
-                                <a href="index.html"><img src="img/logo/logo.png" class="mobile-logo" alt="Logo"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-6 d-none d-md-block">
-                            <div class="menu-area">
-                                <div class="main-menu">
-                                    <nav id="mobile-menu">
-                                        <ul>
-                                            <li class="active"><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="network.html">Network</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li class="d-block d-sm-none"> <a href="tracking.html" class="">Track now</a></li>
-                                            <li class="d-block d-sm-none"> <a href="pickup.html" class="">Pickup request</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="header-btn d-none d-sm-block">
-                                    <a href="tracking.html" class="btn br-25">Track now</a>
-                                    <a href="pickup.html" class="btn br-25">Pickup request</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile-menu"></div>
-                        </div>
-                    </div>
-            </div>
+
         </header>
         <!-- header-start-end -->
 
         <!-- main-area -->
-        <main>
+        <main class="this-class">
 
             <!-- slider-area -->
             <section class="slider-area">
@@ -113,46 +121,242 @@
                         <div class="slider-overlay-bg"></div>
                         <div class="slider-bg-shape"></div>
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-10 col-lg-11">
-                                    <div class="slider-content text-center">
-                                        <h2 data-animation="fadeInUpS" data-delay=".3s">FlyExpo Movers</h2>
-                                        <p class="slider-para" data-animation="fadeInUpS" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor magna aliqua. </p>
-                                        <div class="slider-form" data-animation="fadeInUpS" data-delay=".9s">
-                                            <form action="#">
-                                                <input type="text" placeholder="Tracking id">
-                                                <button class="btn">Track now</button>
-                                            </form>
+                            <div class="row justify-content-start align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="slider-content">
+                                        <h2 data-animation="fadeInUpS" data-delay=".3s">FlyExpo</h2>
+                                        <p class="slider-para" data-animation="fadeInUpS" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit sedos.  </p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-lg-6 pb-30">
+                                    <div class="">
+                                        <div id="exampleModalLong" class="">
+                                            <div class="modal-content fare-rate-modal">
+                                                <ul class="nav nav-tabs setup-panel">
+                                                    <li class="nav-item single-steps">
+                                                        <a class="nav-link btn-amber" href="#step-1">Select</a>
+                                                    </li>
+                                                    <li class="nav-item single-steps">
+                                                        <a class="nav-link btn-blue-grey" href="#step-2">Send</a>
+                                                    </li>
+                                                    <li class="nav-item single-steps">
+                                                        <a class="nav-link btn-blue-grey" href="#step-3">Track</a>
+                                                    </li>
+                                                </ul>
+                                                <form action="#" method="post">
+                                                    <div class="single-setup" id="step-1">
+                                                        <div class="fare-rate-tab-content">
+                                                            <div class="modal-shipping-title">
+                                                                <h2 class="">Select : <span>Package</span></h2>
+                                                            </div>
+                                                            <div class="modal-shipping-info">
+
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="shipping-address-form">
+                                                                            <div class="shipping-country-box form-group">
+                                                                                <label for="from-country">from country</label>
+                                                                                <input type="text" required="required" id="from-country" placeholder="Select Your Destination">
+                                                                            </div>
+                                                                            <div class="shipping-address-box form-group">
+                                                                                <label for="from-country-location">add your location</label>
+                                                                                <input type="text" required="required" id="from-country-location" placeholder="Select Your Destination">
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="shipping-address-form">
+                                                                            <button class="btn nextBtn-2" type="button">one more step</button>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="modal-shipping-more-list">
+                                                                <ul>
+                                                                    <li><a href="#"><i class="flaticon-credit-card"></i>Check our prohibited items</a></li>
+                                                                    <li><a href="#"><i class="flaticon-track"></i> Find our packaging and delivery options</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-setup" id="step-2">
+                                                        <div class="fare-rate-tab-content">
+                                                            <div class="modal-shipping-details">
+                                                                <div class="modal-shipping-title">
+                                                                    <h2 class="">Send : <span>Package</span></h2>
+                                                                </div>
+                                                                <div class="shipping-details-info d-flex flex-wrap">
+                                                                    <div class="single-shipping-details-box">
+                                                                        <label for="packaging-size">packaging size</label>
+                                                                        <select class="custom-select" id="packaging-size">
+                                                                            <option selected="">Standart Size ( 42” x 36” )</option>
+                                                                            <option>Standart Size ( 82” x 86” )</option>
+                                                                            <option>Standart Size ( 102” x 165” )</option>
+                                                                            <option>Standart Size ( 110” x 205” )</option>
+                                                                            <option>Standart Size ( 120” x 250” )</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="single-shipping-details-box shipping-qty">
+                                                                        <label for="QTY-number">QTY</label>
+                                                                        <input type="number" value="1" id="QTY-number" required="required">
+                                                                    </div>
+                                                                    <div class="single-shipping-details-box shipping-weight">
+                                                                        <label for="packaging-weight">TOTAL WEIGHT</label>
+                                                                        <select class="custom-select" id="packaging-weight">
+                                                                            <option selected="">KG</option>
+                                                                            <option>20KG</option>
+                                                                            <option>30KG</option>
+                                                                            <option>50KG</option>
+                                                                            <option>80KG</option>
+                                                                            <option>100KG</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="single-shipping-details-box shipping-transport">
+                                                                        <label for="cargo-transport">Select service</label>
+                                                                        <select class="custom-select" id="cargo-transport">
+                                                                            <option selected="">Air frieght</option>
+                                                                            <option>Sea cargo</option>
+                                                                            <option>Rail</option>
+                                                                            <option>Warehousing</option>
+                                                                            <option>Post courier</option>
+                                                                        </select>
+                                                                    </div>                                                                   
+                                                                </div>
+                                                                <div class="custom-control custom-checkbox">
+                                                                    <input type="checkbox" required="required" class="custom-control-input" id="customControlInline">
+                                                                    <label class="custom-control-label" for="customControlInline">Agree to confirm</label>
+                                                                </div>
+                                                            </div>
+                                                            <button class="btn f-left prevBtn-2" type="button">Previous</button>
+                                                            <button class="btn f-right nextBtn-2" type="button">Get Price</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-setup" id="step-3">
+                                                        <div class="fare-rate-tab-content">
+                                                            <div class="modal-shipping-details">
+                                                                <div class="modal-shipping-title">
+                                                                    <h2 class="">Track : <span>Package</span></h2>                                                                    
+                                                                </div>
+                                                                <div class="f-left pr-20">
+                                                                    <div class="shipping-details-info shipping-tracking-info flex-wrap">
+                                                                        <div class="modal-tracking-info">
+                                                                            <label for="invoice-id">invoice Id</label>
+                                                                            <input type="text" id="invoice-id" placeholder="Enter Your Id">
+                                                                        </div>                                                                        
+                                                                    </div>
+                                                                    <button class="btn nextBtn-2">find your product</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-shipping-more-list pt-50">
+                                                                <ul>
+                                                                    <li><a href="#"><i class="flaticon-credit-card"></i> Need help finding your tracking number?</a></li>
+                                                                    <li><a href="#"><i class="flaticon-track"></i>Need to track an flyxpocargo Parcel?</a></li>
+                                                                </ul>
+                                                            </div>
+                                                           
+
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="single-slider slider-bg slider-bg-2 slider-video-overlay d-flex align-items-center">
-                        <div class="slider-overlay-bg"></div>
-                        <div class="slider-bg-shape"></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-10 col-lg-11">
-                                    <div class="slider-content text-center">
-                                        <h2 data-animation="fadeInUpS" data-delay=".3s">Logistics Partner</h2>
-                                        <p data-animation="fadeInUpS" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <div class="slider-form" data-animation="fadeInUpS" data-delay=".9s">
-                                            <form action="pickup.html">
-                                                <button class="btn br-25">Get Pickup Quote</button>
-                                            </form>
-                                        </div>
-                                    </div>
+                    
+                </div>
+            </section>
+            <!-- slider-area-end -->
+            
+            <!-- category-area -->
+            <section class="s-category-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-2 col-6">
+                            <div class="s-single-cat t-single-cat light-bg">
+                                <div class="s-cat-content">
+                                    <h5><i>1.</i><a href="services.html">Air Cargo</a></h5>
+                                    <p>Expres delivery an innovative service is logistics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-6">
+                            <div class="s-single-cat t-single-cat gray-bg">                                
+                                <div class="s-cat-content">
+                                    <h5><i>2.</i><a href="services.html">Sea Cargo</a></h5>
+                                    <p>Expres delivery an innovative service is logistics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-6">
+                            <div class="s-single-cat t-single-cat light-bg">
+                                <div class="s-cat-content">
+                                    <h5><i>3.</i><a href="services.html">Freight Forwarding</a></h5>
+                                    <p>Expres delivery an innovative service is logistics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-6">
+                            <div class="s-single-cat t-single-cat gray-bg">
+                                <div class="s-cat-content">
+                                    <h5><i>4.</i><a href="services.html">Clearance</a></h5>
+                                    <p>Expres delivery an innovative service is logistics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-6">
+                            <div class="s-single-cat t-single-cat light-bg">
+                                <div class="s-cat-content">
+                                    <h5><i>5.</i><a href="services.html">International Courier</a></h5>
+                                    <p>Expres delivery an innovative service is logistics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-6">
+                            <div class="s-single-cat t-single-cat gray-bg">
+                                <div class="s-cat-content">
+                                    <h5><i>6.</i><a href="services.html">Door to Door Delivery</a></h5>
+                                    <p>Expres delivery an innovative service is logistics</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- slider-area-end -->
+            <!-- category-area-end -->
+
+             <!-- About-area-start -->
+            <section class="international-services position-relative pt-120 pb-80 fix light-bg">
+                <div class="container">
+                    <div class="services-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 order-0 order-lg-2">
+                                <div class="int-services-img text-center text-lg-right">
+                                    <img src="img/images/about_img_1.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="s-section-title mb-30">
+                                    <h2>About FlyExpo</h2>
+                                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>
+                                </div>
+                                <div class="int-services-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque non.</p>
+                                    <a href="#" class="btn red-btn">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="overlay-title paroller" data-paroller-factor="0.15" data-paroller-factor-lg="0.15" data-paroller-factor-md="0.15" data-paroller-factor-sm="0.15" data-paroller-type="foreground" data-paroller-direction="horizontal">Cargo</div>
+            </section>
             
-            <!-- about-area -->
+        <!-- About-area-end -->
+        <!--             
             <section class="about-area about-bg">
                 <div class="container">
                     <div class="row">
@@ -219,17 +423,15 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- about-area-end -->
+            </section> -->
 
-            <!-- services-area -->
-            <section class="services-area pt-80 pb-40">
+            <!-- why us -area -->
+            <section class="services-area pt-60 pb-40 primary-bg">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-start pl-40">
                         <div class="col-xl-8 col-lg-10">
-                            <div class="s-section-title text-center mb-60">
-                                <h6>FlyExpo</h6>
-                                <h2>Services</h2>
+                            <div class="s-section-title mb-60">
+                                <h2>Why us?</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                             </div>
                         </div>
@@ -239,12 +441,12 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-services mb-30">
                                     <div class="services-thumb">
-                                        <a href="#"><img src="img/images/services_img01.jpg" alt="img"></a>
+                                        <a href="#"><img src="img/images/services_img02.jpg" alt="img"></a>
                                     </div>
                                     <div class="services-content">
                                         <div class="mb-15">
                                         </div>
-                                        <h3><a href="#">Air Cargo</a></h3>
+                                        <h3><a href="#">Complete tracking</a></h3>
                                         <hr>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
@@ -258,36 +460,7 @@
                                     <div class="services-content">
                                         <div class="mb-15">
                                         </div>
-                                        <h3><a href="#">Sea Cargo</a></h3>
-                                        <hr>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="single-services mb-30">
-                                    <div class="services-thumb">
-                                        <a href="#"><img src="img/images/services_img03.jpg" alt="img"></a>
-                                    </div>
-                                    <div class="services-content">
-                                        <div class="mb-15">
-                                        </div>
-                                        <h3><a href="#">Freight Forwarding</a></h3>
-                                        <hr>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6">
-                                <div class="single-services mb-30">
-                                    <div class="services-thumb">
-                                        <a href="#"><img src="img/images/services_img01.jpg" alt="img"></a>
-                                    </div>
-                                    <div class="services-content">
-                                        <div class="mb-15">
-                                        </div>
-                                        <h3><a href="#">Clearance</a></h3>
+                                        <h3><a href="#">Easy Handling</a></h3>
                                         <hr>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
@@ -301,21 +474,7 @@
                                     <div class="services-content">
                                         <div class="mb-15">
                                         </div>
-                                        <h3><a href="#">International Courier</a></h3>
-                                        <hr>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="single-services mb-30">
-                                    <div class="services-thumb">
-                                        <a href="#"><img src="img/images/services_img03.jpg" alt="img"></a>
-                                    </div>
-                                    <div class="services-content">
-                                        <div class="mb-15">
-                                        </div>
-                                        <h3><a href="#">Door to Door Delivery</a></h3>
+                                        <h3><a href="#">Best Service</a></h3>
                                         <hr>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
@@ -324,77 +483,174 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- services-area-end -->
 
-            <!-- fact-area -->
-            <section class="fact-area position-relative pt-40">
-                <div class="fact-bg"></div>
+                <!-- brand-area -->
+                <div class="brand-area pt-40">
+                    <div class="container">                    
+                        <div class="row brand-active">
+                            <div class="col-12">
+                                <div class="signle-brand">
+                                    <img src="img/brand/client-logo-1.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="signle-brand">
+                                    <img src="img/brand/client-logo-2.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="signle-brand">
+                                    <img src="img/brand/client-logo-3.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="signle-brand">
+                                    <img src="img/brand/client-logo-4.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="signle-brand">
+                                    <img src="img/brand/client-logo-5.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="signle-brand">
+                                    <img src="img/brand/client-logo-3.jpg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- brand-area-end -->
+            </section>
+            <!-- why us -area-end -->
+
+
+            <!-- services-zigzag-start -->
+            <div class="services-details-area pt-80 pb-60 light-bg">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="s-section-title text-center mb-70">
-                                <h6>Delivery Anything</h6>
-                                <h2>Exclusive Cargo Gallery</h2>
+                    <div class="services-details-wrap">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <aside class="services-sidebar">                     
+                                    
+                                    <div class="services-widget">
+                                        <div class="services-details-img">
+                                        <img src="img/images/send_parcel.jpg" alt="">
+                                    </div>
+                                    </div>
+                                    
+                                </aside>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="single-fact mb-50">
-                                <div class="fact-icon mb-25">
-                                    <i class="fas fa-cube"></i>
-                                </div>
-                                <div class="fact-content">
-                                    <h4><span class="count">3,560</span> km</h4>
-                                    <h6>Package Delivered</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="single-fact mb-50">
-                                <div class="fact-icon mb-25">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <div class="fact-content">
-                                    <h4><span class="count">195</span></h4>
-                                    <h6>Countries Covered</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="single-fact mb-50">
-                                <div class="fact-icon mb-25">
-                                    <i class="far fa-user"></i>
-                                </div>
-                                <div class="fact-content">
-                                    <h4><span class="count">456</span> k</h4>
-                                    <h6>Happy Customer</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <div class="single-fact mb-50">
-                                <div class="fact-icon mb-25">
-                                    <i class="far fa-thumbs-up"></i>
-                                </div>
-                                <div class="fact-content">
-                                    <h4><span class="count">99</span> Yr</h4>
-                                    <h6>Year Experience</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                            <div class="col-lg-6">
+                                <div class="services-details-content">
+                                    <h4>Send your pacakge</h4>
+                                    <p>Express delivery is an innovative service is effective logistics solution for the delivery of small cargo. This service
+                                    is useful for companies of various effective logistics scale.transport logistic is the world´s biggest trade show for
+                                    logistics, mobility, IT and supply chain management. It takes place every two years in early May, at the Messe München
+                                    exhibition center in Munich</p>
+                                    <div class="services-details-list">
+                                        <ul>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i>Express delivery is an innovative service</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i>Logistics scale transport innovative</li>
+                                            <li><i class="fas fa-arrow-alt-circle-right"></i>Help transportation and logistics companies</li>
+                                        </ul>
+                                    </div>
+                                    <a href="pickup.html" class="btn red-btn">Send Parcel</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- fact-area-end -->
+            </div>
+            <!-- services-zigzag-end -->
+                <!-- services-zigzag-start -->
+                <div class="services-details-area pt-80 pb-60 primary-bg">
+                    <div class="container">
+                        <div class="services-details-wrap">
+                            <div class="row">                                
+                                <div class="col-lg-6 order-sm-2">
+                                    <aside class="services-sidebar">
+                                        <div class="services-widget">
+                                            <div class="services-details-img">
+                                            <img src="img/images/track_parcel_2.jpg" alt="">
+                                        </div>
+                                        </div>
+                                        
+                                    </aside>
+                                </div>
+                                <div class="col-lg-6 order-sm-1">
+                                    <div class="services-details-content">
+                                        <h4>Track your package</h4>
+                                        <blockquote class="services-blockquote">
+                                            Express delivery is an innovative service is effective logistics solution for the deliver small cargo service is useful
+                                            for companies
+                                            <footer class="services-blockquote-footer">Jonso Watson</footer>
+                                        </blockquote>                                    
+                                        <p>Logistics solution for the delivery of small cargo. This service is useful for companie various effective logistics
+                                        scale.transport logistic is the world´s biggest trade show for logistics.</p>
+                                        <a href="tracking.html" class="btn red-btn">Track Parcel</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- services-zigzag-end -->
+                        <!-- services-zigzag-start -->
+                        <div class="services-details-area pt-80 pb-60 light-bg">
+                            <div class="container">
+                                <div class="services-details-wrap">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <aside class="services-sidebar">
+                                                <div class="services-widget">
+                                                    <div class="services-details-img">
+                                                    <img src="img/images/return_parcel.jpg" alt="">
+                                                </div>
+                                                </div>
+                                                
+                                            </aside>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="services-details-content">
+                                                <h4>Returing your package</h4>
+                                                <p>Express delivery is an innovative service is effective logistics solution for the delivery of small cargo. This service
+                                                is useful for companies of various effective logistics scale.</p>
+                                                <div class="services-details-list">
+                                                    <ul>
+                                                        <li><i class="fas fa-arrow-alt-circle-right"></i>Express delivery is an innovative service</li>
+                                                        <li><i class="fas fa-arrow-alt-circle-right"></i>Logistics scale transport innovative</li>
+                                                        <li><i class="fas fa-arrow-alt-circle-right"></i>Help transportation and logistics companies</li>
+                                                    </ul>
+                                                </div>                                                
+                                                <a href="#" class="btn red-btn">Return parcel</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- services-zigzag-end -->
+         
+                        <section class="video-area video-bg">
+                            <div class="container">
+                                <div class="video-overlay s-video-overlay">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-12">
+                                            <div class="video-title">
+                                                <span>We serve</span>
+                                                <h2><span>200</span> locations</h2>
+                                                <a href="network.html">all our newtorks<span></span></a>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
             <!-- Branches Area -->
-            <section class="choose-area pt-80 pb-40">
+            <!-- <section class="choose-area pt-80 pb-40">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-7 col-lg-10">
@@ -472,55 +728,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- Branches area-end -->
+            </section> -->
 
-            <!-- brand-area -->
-            <div class="brand-area pt-80 pb-80 light-bg">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="s-section-title text-center mb-70">
-                                <h6>Our Clients</h6>
-                                <h2>Popular Brands</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row brand-active">
-                        <div class="col-12">
-                            <div class="signle-brand">
-                                <img src="img/brand/brnad_logo01.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="signle-brand">
-                                <img src="img/brand/brnad_logo02.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="signle-brand">
-                                <img src="img/brand/brnad_logo03.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="signle-brand">
-                                <img src="img/brand/brnad_logo04.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="signle-brand">
-                                <img src="img/brand/brnad_logo05.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="signle-brand">
-                                <img src="img/brand/brnad_logo03.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- brand-area-end -->
+            
 
          </main>
         <!-- main-area-end -->
@@ -568,13 +778,14 @@
         </div>
         <!-- footer -->
         <footer>
-            <div class="footer-wrap pt-60 pb-30" data-background="img/bg/footer_bg.jpg">
+            <!-- <div class="footer-wrap pt-60 pb-30" data-background="img/bg/footer_bg.jpg"> -->
+            <div class="footer-wrap pt-60">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6">
                             <div class="footer-widget mb-50">
                                 <div class="footer-logo mb-35">
-                                    <a href="index.html"><img src="img/logo/white_logo.png" alt="img"></a>
+                                    <a href="index.html"><img src="img/logo/logo.png" alt="img"></a>
                                 </div>
                                 <div class="footer-text">
                                     <p>Lorem Ipsum is simply dumm text the printing and types indstr orem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -590,10 +801,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-2 col-md-6 col-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>Resources</h5>
+                                    <h5 class="text-dark">Resources</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
@@ -607,30 +818,52 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>USEFUL LINKS</h5>
+                                    <h5 class="text-dark">Our Services</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> About us</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Delivery Information</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Terms & Conditions</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Privacy Policy</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Refund Policy</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Track Package</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Air Cargo</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Sea Cargo</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Frieght Forwarding</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Clearance</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> International Courier</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Door to Door Delivery</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>Contact</h5>
+                                    <h5 class="text-dark">Locations</h5>
                                 </div>
+                                
                                 <div class="f-support-content">
-                                    <div class="footer-phone">
+
+
+                                    <div class="single-choose mb-40">
+                                        <div class="choose-head">
+                                            <div class="choose-icon mb-25 justify-content-around">
+                                                <a href="tel:+971 42344100"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 42344100">DUBAI</a></h3>
+                                                <a href="tel:+971 67311043"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 67311043">AJMAN</a></h3>
+                                            </div>
+                                           
+                                            <div class="choose-icon mb-25 justify-content-around">
+                                                <a href="tel:+971 24455745"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 24455745">ABU DHABI</a></h3>
+                                                <a href="tel:+971 37331621"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 37331621">AL AIN</a></h3>
+                                            </div>
+                                            <a href="network.html" class="btn justify-content-center">See all networks</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="footer-phone">
                                         <a class="d-flex" href="tel:+971 42344100">
                                             <div class="left">
                                                 <i class="fas fa-phone-alt"></i>
@@ -673,7 +906,7 @@
                                                 <p class="second">+971 24455745 </p>
                                             </div>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

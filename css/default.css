@@ -686,6 +686,19 @@
 .primary-color {
 	color: #222;
 }
+
+/* Button */
+.track-btn {
+	background-color: #fff6f6;
+	padding: 5px 10px;
+	margin-left: 10px;
+	color: #f7162b;
+	transition: 0.2s all ease;
+}
+.track-btn:hover {
+	color: #fff;
+	background-color: #f7162b;
+}
 /* black overlay */
 
 [data-overlay] {
