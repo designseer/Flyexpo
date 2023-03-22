@@ -1229,7 +1229,7 @@ label {
 }
 .slider-overlay-bg {
 	/* background-image: url(../img/slider/slider_img02.png); */
-	background:linear-gradient(135deg, rgba(35, 31, 32, 1) 48%, rgba(247, 22, 43, 1) 52%);
+	/* background:linear-gradient(135deg, rgba(35, 31, 32, 1) 48%, rgba(247, 22, 43, 1) 52%); */
 	min-height: 749px;
 	width: 100%;
 	position: absolute;
